@@ -1,0 +1,4 @@
+1. Import your video to unity.
+2. In Hierarchy select tv_screen prefab.
+3. In Inspector look for Video Player component.
+4. Drag and drop your video to VIDEO CLIP field in  Video Player component.
