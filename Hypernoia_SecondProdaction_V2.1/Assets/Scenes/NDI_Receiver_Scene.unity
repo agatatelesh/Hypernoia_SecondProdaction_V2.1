@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a09ab5fc64402d49b12d170a7577986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ndiName: OPPO-A54-5G (NDI HX Camera)
+  _ndiName: LAPTOP-89G16T32 (Studio Monitor 1)
   _targetTexture: {fileID: 8400000, guid: 320a47cc51865b348bfff36d59def0ff, type: 2}
   _targetRenderer: {fileID: 0}
   _targetMaterialProperty: _MainTex

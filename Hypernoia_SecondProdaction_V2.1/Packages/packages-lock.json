@@ -214,6 +214,30 @@
         "com.unity.modules.screencapture": "1.0.0"
       }
     },
+    "nyc.scatter.depthkit.core": {
+      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "nyc.scatter.depthkit.core.shadergraph": {
+      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.shadergraph",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "nyc.scatter.depthkit.core": "0.12.0",
+        "com.unity.shadergraph": "10.8.1"
+      }
+    },
+    "nyc.scatter.depthkit.core.vfx": {
+      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.vfx",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "nyc.scatter.depthkit.core": "0.13.2",
+        "com.unity.visualeffectgraph": "10.8.1"
+      }
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
