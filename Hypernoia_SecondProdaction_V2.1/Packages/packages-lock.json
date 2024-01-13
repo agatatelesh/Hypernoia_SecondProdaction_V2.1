@@ -224,13 +224,13 @@
       }
     },
     "nyc.scatter.depthkit.core": {
-      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core",
+      "version": "file:C:/Users/user/Desktop/Agata/DepthKit/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "nyc.scatter.depthkit.core.shadergraph": {
-      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.shadergraph",
+      "version": "file:C:/Users/user/Desktop/Agata/DepthKit/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.shadergraph",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -239,7 +239,7 @@
       }
     },
     "nyc.scatter.depthkit.core.vfx": {
-      "version": "file:C:/Users/agata/OneDrive/Рабочий стол/Hypernoia/TestSofts_Plugins/DepthKit_Files/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.vfx",
+      "version": "file:C:/Users/user/Desktop/Agata/DepthKit/Depthkit_Expansion_Package_Phase9_062223/Depthkit_Expansion_Package_Phase9_062223/depthkit.core.vfx",
       "depth": 0,
       "source": "local",
       "dependencies": {
