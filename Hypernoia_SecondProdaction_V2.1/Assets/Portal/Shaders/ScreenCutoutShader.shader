@@ -10,7 +10,8 @@ Shader "Unlit/ScreenCutoutShader"
 	{
 		Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent" }
 		Lighting Off
-		Cull Off // MAking it sure that player can look inside a cube
+		Cull Back
+		//Cull Off // MAking it sure that player can look inside a cube
 		//Cull Back //Works for plane
 		ZWrite On
 		ZTest Less
