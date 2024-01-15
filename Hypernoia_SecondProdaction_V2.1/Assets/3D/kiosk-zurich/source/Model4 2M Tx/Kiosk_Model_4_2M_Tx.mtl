@@ -1,0 +1,13 @@
+#
+# Wavefront material file
+# Created in RealityCapture
+# Engine version v1.1.1.15122
+#
+
+newmtl Kiosk_Model_4_2M_Tx
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Kiosk_Model_4_2M_Tx_u0_v0.jpg
