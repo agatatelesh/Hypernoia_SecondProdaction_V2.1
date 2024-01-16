@@ -14,10 +14,18 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.N)){
             LoadNextScene();
         }
+
+         if(Input.GetKeyDown(KeyCode.P)){
+            LoadPreviosScene();
+        }
+
         
     }
 
     public void LoadNextScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+     public void LoadPreviosScene(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
