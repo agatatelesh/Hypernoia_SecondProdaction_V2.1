@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ThroneRoom_Scene.unity
     guid: 41ae680ac707e5648b8d2bb6d936c090
   - enabled: 1
-    path: Assets/Scenes/Mars 1.unity
+    path: Assets/Scenes/Mars_And_Earth_Scene.unity
     guid: af9533fbaf3deb542ac98c76cb1d20cb
   - enabled: 1
     path: Assets/Scenes/Seagull_FollowPath_SetUp_Scene.unity
