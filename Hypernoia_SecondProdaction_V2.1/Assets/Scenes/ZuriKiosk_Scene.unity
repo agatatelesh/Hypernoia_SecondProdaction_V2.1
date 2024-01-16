@@ -1123,8 +1123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acbce35697ddad47a7d8dbc53fe88e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toActivate: {fileID: 0}
-  toDeactivate: {fileID: 0}
+  toBeActive_firstGroup: []
+  toBeActive_secondGroup: []
+  isActive_1: 0
+  isActive_2: 0
 --- !u!114 &1405883117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1443,7 +1445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1991151568
 MonoBehaviour:
   m_ObjectHideFlags: 0
