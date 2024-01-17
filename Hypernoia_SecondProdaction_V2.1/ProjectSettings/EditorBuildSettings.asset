@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Potal_SetUp_Scene_1.2.unity
-    guid: 761799290c434404f8bf78a877fd2274
-  - enabled: 0
-    path: Assets/Scenes/OptiTrack_Scene.unity
-    guid: 939b1fba68015d14aba5ef030e6131b2
-  - enabled: 0
-    path: Assets/Scenes/GameBoy_Scene 1.unity
-    guid: 9b5ccec78c8e04f46b956dcea93b8e83
   - enabled: 1
     path: Assets/Scenes/Mars.unity
     guid: e850ecc349f3a814192eb36317212268
@@ -39,8 +30,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CyborgDead_Scene.unity
     guid: 39890e15402d7644482f90fde11a33c8
   - enabled: 1
+    path: Assets/Scenes/NIna_Matthias.unity
+    guid: af158054074ee2c4ca77a730a66ceca8
+  - enabled: 1
     path: Assets/Scenes/ThroneRoom_Scene.unity
     guid: 41ae680ac707e5648b8d2bb6d936c090
+  - enabled: 1
+    path: Assets/Scenes/MackDeath_Mars_Scene.unity
+    guid: e021cd823a41bf14f925b86039d1ad57
   - enabled: 1
     path: Assets/Scenes/Mars_And_Earth_Scene.unity
     guid: af9533fbaf3deb542ac98c76cb1d20cb
