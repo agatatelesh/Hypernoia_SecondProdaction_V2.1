@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class SetActiveScript : MonoBehaviour
 {
-    public List<GameObject> toBeActive_firstGroup = new List<GameObject>();
-     public List<GameObject> toBeActive_secondGroup = new List<GameObject>();
+    public List<GameObject> toBeActive_firstGroupL = new List<GameObject>();
+    public List<GameObject> toBeActive_secondGroupK = new List<GameObject>();
+
+    public List<GameObject> toBeActive_thirdGroupJ = new List<GameObject>();
 
     public bool isActive_1 = false;
     public bool isActive_2 = false;
+
+    public bool isActive_3 = false;
 
    // public GameObject toActivate;
     //public GameObject toDeactivate;
@@ -24,6 +28,10 @@ public class SetActiveScript : MonoBehaviour
             ActivateSecondGroup();
             
         }
+         if(Input.GetKeyDown(KeyCode.J)){
+            ActivateThirdGroup();
+            
+        }
         
     }
 
@@ -31,7 +39,7 @@ public class SetActiveScript : MonoBehaviour
         //toActivate.SetActive(true);
         //toDeactivate.SetActive(false);
         isActive_1 = !isActive_1;
-        foreach(GameObject obj in toBeActive_firstGroup){
+        foreach(GameObject obj in toBeActive_firstGroupL){
             obj.SetActive(isActive_1);
         }
     }
@@ -40,8 +48,17 @@ public class SetActiveScript : MonoBehaviour
         //toActivate.SetActive(true);
         //toDeactivate.SetActive(false);
         isActive_2 = !isActive_2;
-        foreach(GameObject obj in toBeActive_secondGroup){
+        foreach(GameObject obj in toBeActive_secondGroupK){
             obj.SetActive(isActive_2);
+        }
+    }
+
+    public void ActivateThirdGroup(){
+        //toActivate.SetActive(true);
+        //toDeactivate.SetActive(false);
+        isActive_3 = !isActive_3;
+        foreach(GameObject obj in toBeActive_thirdGroupJ){
+            obj.SetActive(isActive_3);
         }
     }
 
