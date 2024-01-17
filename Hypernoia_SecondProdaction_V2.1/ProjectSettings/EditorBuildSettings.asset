@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ZuriKiosk_Scene.unity
     guid: 62c7b8afa22693044b3d001484343f88
   - enabled: 1
+    path: Assets/Scenes/PreKItchen_Scene.unity
+    guid: edfdcf43871ed1342a315dc34073a511
+  - enabled: 1
     path: Assets/Scenes/Kitchen_Scene.unity
     guid: e434d49cd78e7e442995e21a036a3688
   - enabled: 1
