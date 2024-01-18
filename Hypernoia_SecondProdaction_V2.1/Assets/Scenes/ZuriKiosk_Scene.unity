@@ -493,11 +493,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.220452
+      value: 0.22045203
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_LocalScale.y
@@ -505,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.220452
+      value: 0.22045206
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -549,7 +549,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_Name
-      value: untitled
+      value: ActivateAnimation_BillBoard
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4300069462760291063, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -569,6 +573,55 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 09b7ca5e4b3b4324ebaa1fa58360ed02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0aff4fde1f4398429f1b07a7a75aa6b, type: 3}
+--- !u!1 &775023760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775023762}
+  - component: {fileID: 775023761}
+  m_Layer: 0
+  m_Name: ZurichKioskLocation_Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &775023761
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775023760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5d1a9c864230bd44d9d99ff00fe41171, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &775023762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775023760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7733422, y: 0.9520403, z: -0.05904579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &958726778
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,8 +867,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.25
+  m_Color: {r: 0.70440245, g: 0.70440245, b: 0.70440245, a: 1}
+  m_Intensity: 0.63
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -878,7 +931,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 10.201, y: -189.217, z: -101.41}
 --- !u!1 &1235619802
 GameObject:
@@ -1091,7 +1144,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 99.44299, y: -30, z: 0}
 --- !u!1 &1405883115
 GameObject:
@@ -1123,7 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acbce35697ddad47a7d8dbc53fe88e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toBeActive_firstGroupL: []
+  toBeActive_firstGroupL:
+  - {fileID: 0}
   toBeActive_secondGroupK: []
   toBeActive_thirdGroupJ: []
   isActive_1: 0
@@ -1289,7 +1343,7 @@ Transform:
   - {fileID: 1434239030}
   - {fileID: 276562414}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845883260
 GameObject:
@@ -1416,7 +1470,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955123669}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d22aed95a5fb1b2429dc08fd4b0465e3, type: 2}
   m_CullingMode: 0

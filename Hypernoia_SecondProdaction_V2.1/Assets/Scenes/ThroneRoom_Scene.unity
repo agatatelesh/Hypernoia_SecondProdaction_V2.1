@@ -619,7 +619,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132734613}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a331805347588fe4a8161c8875d24396, type: 3}
   m_Name: 
@@ -641,7 +641,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132734613}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f77bc200897df4f4483b478b598b0c51, type: 3}
   m_Name: 
@@ -2729,7 +2729,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 36f3fa090831fe44daa5cefa810f740f, type: 2}
     - target: {fileID: 919132149155446097, guid: 877db482e9f31ed4780635e523f7317a, type: 3}
       propertyPath: m_Name
-      value: Throne
+      value: Throne_2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 877db482e9f31ed4780635e523f7317a, type: 3}
       propertyPath: m_IsActive
@@ -4620,7 +4620,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 971994670, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_Name
-      value: DragonSoulEaterBluePBR
+      value: DragonSoulEaterBluePBR_4
       objectReference: {fileID: 0}
     - target: {fileID: 971994670, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_IsActive
@@ -4628,31 +4628,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7643
+      value: 0.4805689
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7643
+      value: 0.4805689
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7643
+      value: 0.4805689
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.760886
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.42109
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.0338318
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 971994672, guid: 31a77d5e57bdce243a1c38bc0ba2808f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7806,7 +7806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439783845}
   m_Layer: 0
-  m_Name: Blood_Ocean
+  m_Name: Blood_Ocean_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7827,7 +7827,7 @@ Transform:
   - {fileID: 1496264438}
   - {fileID: 903507646}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1454383624
 PrefabInstance:
@@ -12565,7 +12565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3780966148193275351, guid: ed11883d9fddc0a4b9f12635985b00a2, type: 3}
       propertyPath: m_Name
-      value: Crypt
+      value: Crypt_1
       objectReference: {fileID: 0}
     - target: {fileID: 3780966148193275351, guid: ed11883d9fddc0a4b9f12635985b00a2, type: 3}
       propertyPath: m_IsActive

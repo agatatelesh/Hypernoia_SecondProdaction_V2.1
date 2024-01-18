@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 14675146}
   - component: {fileID: 14675145}
   m_Layer: 0
-  m_Name: ain_Audio
+  m_Name: Rain_Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 74fed94f77240434eb8e6038ea541628, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.018
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1018,6 +1018,10 @@ PrefabInstance:
     - target: {fileID: 8200000, guid: 015d04a72d336e0428ecbac6056389ae, type: 3}
       propertyPath: m_Volume
       value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 015d04a72d336e0428ecbac6056389ae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015d04a72d336e0428ecbac6056389ae, type: 3}
