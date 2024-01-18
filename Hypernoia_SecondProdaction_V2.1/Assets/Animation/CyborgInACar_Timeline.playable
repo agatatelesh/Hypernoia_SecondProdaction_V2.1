@@ -178,25 +178,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -243,8 +225,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 6457adfd8106b82449aed75a321ae937, type: 2}
-  m_Position: {x: 3.067, y: -0.188, z: 2.138}
-  m_EulerAngles: {x: 323.35754, y: 118.573654, z: 0.000010640574}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -274,10 +256,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.6833333333333333
+    m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 8509932810221841986}
-    m_Duration: 104.70345833333333
+    m_Asset: {fileID: 8365258644064574736}
+    m_Duration: 66.47064583333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4647114445290621670}
     m_EaseInDuration: 0
@@ -341,7 +323,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Steffi_Text_2_bearbeitet
+    m_DisplayName: Roman_Text1_bearbeitet
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -490,8 +472,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 40d6e3ea81601a94d86e5fceb2a856b9, type: 2}
-  m_Position: {x: 3.067, y: -0.188, z: 2.138}
-  m_EulerAngles: {x: 323.35754, y: 118.573654, z: 0.000010640574}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -512,8 +494,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: dca12a94bdebee949a56181d4cd83121, type: 2}
-  m_Position: {x: 3.067, y: -0.188, z: 2.138}
-  m_EulerAngles: {x: 323.35754, y: 118.573654, z: 0.000010640574}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -626,7 +608,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_PostPlaybackState: 3
---- !u!114 &8509932810221841986
+--- !u!114 &8365258644064574736
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,7 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: ab5ba499f04f8fe43bb55fa9c02e7344, type: 3}
+  m_Clip: {fileID: 8300000, guid: 63e23b37f3996eb46b3699507fc96258, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
