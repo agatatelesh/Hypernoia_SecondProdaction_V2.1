@@ -22,10 +22,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.36666666666666664
+    m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 7157219835966179783}
-    m_Duration: 43.040645833333336
+    m_Asset: {fileID: 7431857273367266426}
+    m_Duration: 67.3575
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8367456490180956538}
     m_EaseInDuration: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Roman_Text4_bearbeitet
+    m_DisplayName: Steffi_Text6_bearbeitet
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -121,7 +121,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 4384351041745334463}
-    m_Duration: 43.35
+    m_Duration: 67.3575
     m_TimeScale: 0.5
     m_ParentTrack: {fileID: -7903932378809306935}
     m_EaseInDuration: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_Start: 1.15
     m_ClipIn: 0
     m_Asset: {fileID: 5165146142404534236}
-    m_Duration: 42.2
+    m_Duration: 66.2075
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4419189491870568}
     m_EaseInDuration: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
---- !u!114 &7157219835966179783
+--- !u!114 &7431857273367266426
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 1d7e551f8244b944981f5b40b2c2db76, type: 3}
+  m_Clip: {fileID: 8300000, guid: caef451ff2d19b0429e47173f0124d90, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
