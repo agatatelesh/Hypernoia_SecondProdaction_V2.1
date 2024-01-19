@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
          if(Input.GetKeyDown(KeyCode.P)){
             LoadPreviosScene();
         }
+         if(Input.GetKeyDown(KeyCode.B)){
+            LoadBlackScene();
+        }
 
         
     }
@@ -27,5 +30,8 @@ public class GameManager : MonoBehaviour
     }
      public void LoadPreviosScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+    public void LoadBlackScene(){
+        SceneManager.LoadScene(0);
     }
 }

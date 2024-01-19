@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/BlankScene.unity
+    guid: bc59e6cde94a92e4e821ff2c69f5f265
+  - enabled: 1
     path: Assets/Scenes/Mars.unity
     guid: e850ecc349f3a814192eb36317212268
   - enabled: 1
@@ -21,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PreKItchen_Scene.unity
     guid: edfdcf43871ed1342a315dc34073a511
   - enabled: 1
+    path: Assets/Scenes/KitchenKinect_Scene.unity
+    guid: d258bfc5681bab949ba8dae53a73dc7e
+  - enabled: 0
     path: Assets/Scenes/Kitchen_Scene.unity
     guid: e434d49cd78e7e442995e21a036a3688
   - enabled: 1
@@ -35,9 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NIna_Matthias.unity
     guid: af158054074ee2c4ca77a730a66ceca8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Memory Environment Collection/Memory_Scene_1.2.unity
     guid: 6891eb6400884e54b8aea0aefd9ce398
+  - enabled: 1
+    path: Assets/Scenes/Memory_Scene_Fin.unity
+    guid: 9aa3e38ff3a28034b9ae4a5bdd59b223
   - enabled: 1
     path: Assets/Scenes/ThroneRoom_Scene.unity
     guid: 41ae680ac707e5648b8d2bb6d936c090
