@@ -1391,8 +1391,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toBeActive_firstGroupL:
+  - {fileID: 1422758165}
+  toBeActive_secondGroupK:
   - {fileID: 1469832814}
-  toBeActive_secondGroupK: []
   toBeActive_thirdGroupJ: []
   isActive_1: 0
   isActive_2: 0
@@ -1529,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7381247757093139362, guid: a80e3d4e1cb467d40ba8f46e14a79c93, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855841883814050278, guid: a80e3d4e1cb467d40ba8f46e14a79c93, type: 3}
       propertyPath: m_bIsSetup
