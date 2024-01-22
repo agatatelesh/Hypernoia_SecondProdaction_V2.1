@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/NIna_Matthias.unity
     guid: af158054074ee2c4ca77a730a66ceca8
   - enabled: 0
-    path: Assets/Memory Environment Collection/Memory_Scene_1.2.unity
+    path: Assets/Samples/Memory Environment Collection/Memory_Scene_1.2.unity
     guid: 6891eb6400884e54b8aea0aefd9ce398
   - enabled: 1
     path: Assets/Scenes/Memory_Scene_Fin.unity
